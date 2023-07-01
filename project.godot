@@ -35,16 +35,16 @@ Geodot="*res://addons/geodot/geodot.gd"
 [display]
 
 window/energy_saving/keep_screen_on=false
-window/per_pixel_transparency/allowed=true
-window/vsync/vsync_mode=0
 window/subwindows/embed_subwindows=false
 window/stretch/aspect="expand"
+window/per_pixel_transparency/allowed=true
+window/vsync/vsync_mode=0
 window/size/width=1920
 window/size/height=1080
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/geodot/plugin.cfg")
 
 [filesystem]
 
