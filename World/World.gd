@@ -25,7 +25,7 @@ func _ready():
 	
 	$PositionManager.new_center_node.connect(func(center_node): $WorldEnvironment/RainParticles.center_node = center_node)
 	$PositionManager.new_center_node.connect(func(center_node): $WorldEnvironment/RainSplashes.center_node = center_node)
-	$PositionManager.new_center_node.connect(func(center_node): $WorldEnvironment/Lightning.center_node = center_node)
+	# $PositionManager.new_center_node.connect(func(center_node): $WorldEnvironment/Lightning.center_node = center_node)
 	
 	$LLConfigSetup.connect("applied_configuration", $PositionManager.reset_center)
 	
